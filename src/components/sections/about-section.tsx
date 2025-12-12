@@ -1,4 +1,3 @@
-import Image from 'next/image';
 
 export default function AboutSection() {
     return (
@@ -6,14 +5,11 @@ export default function AboutSection() {
             <div className="container">
                 <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-start">
                     <div className="relative aspect-[4/5] max-w-md mx-auto">
-                        <Image
+                        {/* Using a standard img tag to ensure the image loads without Next.js Image component interference */}
+                        <img
                             src="/fitsum-tefera.jpg"
                             alt="A professional portrait of Fitsum A. Tefera."
-                            fill
-                            className="rounded-lg object-cover shadow-xl"
-                            sizes="(max-width: 768px) 100vw, 50vw"
-                            priority
-                            data-ai-hint="professional portrait"
+                            className="rounded-lg object-cover shadow-xl w-full h-full"
                         />
                         <div className="absolute -bottom-4 -right-4 bg-accent w-24 h-24 rounded-full -z-10"></div>
                         <div className="absolute -top-4 -left-4 bg-primary w-32 h-32 rounded-lg -z-10"></div>
@@ -52,4 +48,3 @@ export default function AboutSection() {
             </div>
         </section>
     );
-}
