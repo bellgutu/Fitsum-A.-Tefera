@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "about-photo",
+      "description": "A professional portrait of Fitsum Tefera.",
+      "imageUrl": "https://images.unsplash.com/photo-1607990283143-e81e7a2c9349?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjU1MzgyMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "richfam-render-1",
+      "description": "Architectural 3D render of the RICHFAM International School campus.",
+      "imageUrl": "https://images.unsplash.com/photo-1546349851-64285be8e9fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzY1NDkzMTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern architecture"
+    },
+    {
+      "id": "richfam-render-2",
+      "description": "Architectural 3D render of the RICHFAM International School interior.",
+      "imageUrl": "https://images.unsplash.com/photo-1764720572930-eb63afd14b06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2hvb2wlMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjU1NzAxNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "school interior"
+    },
+    {
+      "id": "richfam-render-3",
+      "description": "Architectural 3D render of the RICHFAM International School library.",
+      "imageUrl": "https://images.unsplash.com/photo-1528820995593-07129c727b2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb2Rlcm4lMjBsaWJyYXJ5fGVufDB8fHx8MTc2NTU2MjQ4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern library"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Avatar for testimonial provider 1.",
+      "imageUrl": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJzb24lMjBhdmF0YXJ8ZW58MHx8fHwxNzY1NDg2MDMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person avatar"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Avatar for testimonial provider 2.",
+      "imageUrl": "https://images.unsplash.com/photo-1750535135451-7c20e24b60c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwYXZhdGFyfGVufDB8fHx8MTc2NTQ4NjAzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person avatar"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Avatar for testimonial provider 3.",
+      "imageUrl": "https://images.unsplash.com/photo-1594616838951-c155f8d978a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjBhdmF0YXJ8ZW58MHx8fHwxNzY1NDg2MDMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person avatar"
+    }
+  ]
 }
