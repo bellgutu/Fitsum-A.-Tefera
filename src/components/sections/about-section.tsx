@@ -5,7 +5,6 @@ export default function AboutSection() {
             <div className="container">
                 <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-start">
                     <div className="relative aspect-[4/5] max-w-lg mx-auto">
-                        {/* Using a standard img tag to ensure the image loads without Next.js Image component interference */}
                         <img
                             src="/fitsum-tefera.jpg"
                             alt="A professional portrait of Fitsum A. Tefera."

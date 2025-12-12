@@ -6,6 +6,7 @@ import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { ThemeToggle } from './theme-toggle';
 
 const navLinks = [
   { name: 'About', href: '#about' },
@@ -99,12 +100,15 @@ export default function Header() {
         <nav className="hidden md:flex items-center gap-6">
           <NavContent onLinkClick={() => {}} />
         </nav>
-        <div className="md:hidden">
-            <MobileMenu 
-              isOpen={isMobileMenuOpen}
-              onOpenChange={setMobileMenuOpen}
-              closeMenu={closeMobileMenu}
-            />
+        <div className="flex items-center gap-2">
+            <ThemeToggle />
+            <div className="md:hidden">
+                <MobileMenu 
+                isOpen={isMobileMenuOpen}
+                onOpenChange={setMobileMenuOpen}
+                closeMenu={closeMobileMenu}
+                />
+            </div>
         </div>
       </div>
     </header>
