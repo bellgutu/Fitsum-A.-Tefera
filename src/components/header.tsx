@@ -15,6 +15,61 @@ const navLinks = [
   { name: 'Testimonials', href: '#testimonials' },
 ];
 
+function NavContent({ onLinkClick }: { onLinkClick: () => void }) {
+  return (
+    <>
+      {navLinks.map((link) => (
+        <Link
+          key={link.name}
+          href={link.href}
+          onClick={onLinkClick}
+          className="text-lg font-medium hover:text-primary transition-colors block py-2 md:text-sm md:py-0"
+        >
+          {link.name}
+        </Link>
+      ))}
+    </>
+  );
+}
+
+
+function MobileMenu({ isOpen, onOpenChange, closeMenu }: { isOpen: boolean, onOpenChange: (open: boolean) => void, closeMenu: () => void }) {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) {
+    return null;
+  }
+  
+  return (
+    <Sheet open={isOpen} onOpenChange={onOpenChange}>
+      <SheetTrigger asChild>
+        <Button variant="ghost" size="icon" aria-label="Open menu">
+          <Menu className="h-6 w-6" />
+        </Button>
+      </SheetTrigger>
+      <SheetContent side="right" className="w-[300px]">
+        <div className="p-4">
+          <div className="flex justify-between items-center mb-8">
+            <Link href="/" onClick={closeMenu} className="font-headline text-xl font-bold text-primary">
+              Fitsum A. Tefera
+            </Link>
+            <Button variant="ghost" size="icon" onClick={closeMenu} aria-label="Close menu">
+              <X className="h-6 w-6" />
+            </Button>
+          </div>
+          <nav className="flex flex-col gap-4">
+            <NavContent onLinkClick={closeMenu} />
+          </nav>
+        </div>
+      </SheetContent>
+    </Sheet>
+  )
+}
+
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -27,20 +82,8 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const NavContent = () => (
-    <>
-      {navLinks.map((link) => (
-        <Link
-          key={link.name}
-          href={link.href}
-          onClick={() => setMobileMenuOpen(false)}
-          className="text-lg font-medium hover:text-primary transition-colors block py-2 md:text-sm md:py-0"
-        >
-          {link.name}
-        </Link>
-      ))}
-    </>
-  );
+
+  const closeMobileMenu = () => setMobileMenuOpen(false);
 
   return (
     <header
@@ -50,35 +93,18 @@ export default function Header() {
       )}
     >
       <div className="container flex h-20 items-center justify-between">
-        <Link href="/" className="font-headline text-2xl font-bold text-primary" onClick={() => setMobileMenuOpen(false)}>
+        <Link href="/" className="font-headline text-2xl font-bold text-primary" onClick={closeMobileMenu}>
           Fitsum A. Tefera
         </Link>
         <nav className="hidden md:flex items-center gap-6">
-          <NavContent />
+          <NavContent onLinkClick={() => {}} />
         </nav>
         <div className="md:hidden">
-          <Sheet open={isMobileMenuOpen} onOpenChange={setMobileMenuOpen}>
-            <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" aria-label="Open menu">
-                <Menu className="h-6 w-6" />
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="right" className="w-[300px]">
-              <div className="p-4">
-                <div className="flex justify-between items-center mb-8">
-                  <Link href="/" onClick={() => setMobileMenuOpen(false)} className="font-headline text-xl font-bold text-primary">
-                    Fitsum A. Tefera
-                  </Link>
-                  <Button variant="ghost" size="icon" onClick={() => setMobileMenuOpen(false)} aria-label="Close menu">
-                    <X className="h-6 w-6" />
-                  </Button>
-                </div>
-                <nav className="flex flex-col gap-4">
-                  <NavContent />
-                </nav>
-              </div>
-            </SheetContent>
-          </Sheet>
+            <MobileMenu 
+              isOpen={isMobileMenuOpen}
+              onOpenChange={setMobileMenuOpen}
+              closeMenu={closeMobileMenu}
+            />
         </div>
       </div>
     </header>
