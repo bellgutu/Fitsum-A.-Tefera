@@ -4,7 +4,7 @@ export default function AboutSection() {
         <section id="about" className="w-full py-20 md:py-28 lg:py-32">
             <div className="container">
                 <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-start">
-                    <div className="relative aspect-[4/5] max-w-md mx-auto">
+                    <div className="relative aspect-[4/5] max-w-lg mx-auto">
                         {/* Using a standard img tag to ensure the image loads without Next.js Image component interference */}
                         <img
                             src="/fitsum-tefera.jpg"
@@ -48,3 +48,4 @@ export default function AboutSection() {
             </div>
         </section>
     );
+}
