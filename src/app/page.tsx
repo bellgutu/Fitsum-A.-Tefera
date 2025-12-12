@@ -6,7 +6,6 @@ import RichfamProjectSection from '@/components/sections/richfam-project-section
 import ImpactSection from '@/components/sections/impact-section';
 import TimelineSection from '@/components/sections/timeline-section';
 import TestimonialsSection from '@/components/sections/testimonials-section';
-import DataExtractionTool from '@/components/sections/data-extraction-tool';
 
 export default function Home() {
   return (
@@ -19,7 +18,6 @@ export default function Home() {
         <ImpactSection />
         <TimelineSection />
         <TestimonialsSection />
-        <DataExtractionTool />
       </main>
       <Footer />
     </div>

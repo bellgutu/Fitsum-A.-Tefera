@@ -13,7 +13,6 @@ const navLinks = [
   { name: 'Impact', href: '#impact' },
   { name: 'Timeline', href: '#timeline' },
   { name: 'Testimonials', href: '#testimonials' },
-  { name: 'AI Tool', href: '#ai-tool' },
 ];
 
 export default function Header() {
