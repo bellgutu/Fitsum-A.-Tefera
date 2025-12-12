@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Fitsum Tefera | Visionary Entrepreneur & Community Leader',
-  description: 'The official portfolio of Fitsum Tefera, showcasing strategic investments, the RICHFAM International School project, and a commitment to socioeconomic growth.',
+  title: 'Fitsum A. Tefera | Visionary Entrepreneur & Community Leader',
+  description: 'The official portfolio of Fitsum A. Tefera, showcasing strategic investments, the RICHFAM International School project, and a commitment to socioeconomic growth.',
 };
 
 export default function RootLayout({

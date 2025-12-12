@@ -51,7 +51,7 @@ export default function Header() {
     >
       <div className="container flex h-20 items-center justify-between">
         <Link href="/" className="font-headline text-2xl font-bold text-primary" onClick={() => setMobileMenuOpen(false)}>
-          Fitsum Tefera
+          Fitsum A. Tefera
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           <NavContent />
@@ -67,7 +67,7 @@ export default function Header() {
               <div className="p-4">
                 <div className="flex justify-between items-center mb-8">
                   <Link href="/" onClick={() => setMobileMenuOpen(false)} className="font-headline text-xl font-bold text-primary">
-                    Fitsum Tefera
+                    Fitsum A. Tefera
                   </Link>
                   <Button variant="ghost" size="icon" onClick={() => setMobileMenuOpen(false)} aria-label="Close menu">
                     <X className="h-6 w-6" />

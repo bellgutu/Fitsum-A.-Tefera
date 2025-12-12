@@ -7,7 +7,7 @@ export default function HeroSection() {
       <div className="container text-center">
         <div className="max-w-4xl mx-auto space-y-6">
           <h1 className="font-headline text-4xl font-bold tracking-tighter text-primary sm:text-5xl md:text-6xl lg:text-7xl">
-            Fitsum Tefera: Visionary Entrepreneur & Community Leader
+            Fitsum A. Tefera: Visionary Entrepreneur & Community Leader
           </h1>
           <p className="text-lg leading-8 text-muted-foreground md:text-xl">
             Driving Socioeconomic Growth Through Strategic Investments and Pioneering Projects.
