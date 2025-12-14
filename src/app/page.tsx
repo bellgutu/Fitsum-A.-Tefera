@@ -17,8 +17,8 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <HeroSection />
-        <HighlightsSection />
         <AboutSection />
+        <HighlightsSection />
         <VenturesSection />
         <RichfamProjectSection />
         <CommunitySection />
