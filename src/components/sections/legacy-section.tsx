@@ -5,22 +5,22 @@ const impactPoints = [
     {
         icon: Briefcase,
         title: "Job Creation",
-        description: "Generating hundreds of direct and indirect employment opportunities, fostering economic stability for local families."
+        description: "Generating hundreds of direct and indirect employment opportunities in both the U.S. and Ethiopia."
     },
     {
         icon: Landmark,
-        title: "Tax Contributions",
-        description: "Significantly contributing to the national economy through substantial tax revenues, funding public services."
+        title: "Economic Contribution",
+        description: "Significantly contributing to national economies through substantial tax revenues and investments."
     },
     {
         icon: Sprout,
-        title: "Community Programs",
-        description: "Investing in local communities through scholarships, workshops, and support for grassroots initiatives."
+        title: "Educational Advancement",
+        description: "Pioneering high-quality, accessible education in Ethiopia to cultivate future leaders."
     },
     {
         icon: Recycle,
-        title: "Environmental Stewardship",
-        description: "Implementing sustainable practices and green technologies in all projects to protect and preserve our natural resources."
+        title: "Sustainable Practices",
+        description: "Implementing green technologies and sustainable business models in all projects."
     }
 ];
 
@@ -30,14 +30,14 @@ export default function LegacySection() {
             <div className="container space-y-16">
                 <div className="text-center max-w-3xl mx-auto">
                     <span className="text-sm font-bold tracking-wider uppercase text-accent">Impact & Legacy</span>
-                    <h2 className="font-bold text-3xl md:text-4xl mt-2 text-primary">Building a Stronger Future</h2>
-                    <p className="mt-4 text-muted-foreground">
-                        Our projects are designed not just for financial returns, but to create a lasting positive legacy for society and the environment through job creation, tax contributions, and sustainable practices.
+                    <h2 className="font-bold text-3xl md:text-4xl mt-2 text-primary">Building a Stronger, More Prosperous Future</h2>
+                    <p className="mt-4 text-muted-foreground text-lg">
+                        Projects are designed not just for financial returns, but to create a lasting positive legacy for society and the environment.
                     </p>
                 </div>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
                     {impactPoints.map((point, index) => (
-                        <Card key={index} className="border-2 border-transparent hover:border-accent hover:shadow-2xl transition-all duration-300 group bg-secondary/20 hover:bg-background">
+                        <Card key={index} className="border-2 border-transparent hover:border-accent hover:shadow-2xl transition-all duration-300 group bg-secondary/30 hover:bg-background">
                            <CardHeader className="items-center text-center">
                                 <div className="bg-background rounded-full p-4 mb-4 group-hover:bg-accent transition-colors duration-300">
                                     <point.icon className="w-10 h-10 text-primary group-hover:text-accent-foreground" />

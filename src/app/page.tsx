@@ -1,11 +1,15 @@
 import Header from '@/components/header';
 import Footer from '@/components/footer';
 import HeroSection from '@/components/sections/hero-section';
+import HighlightsSection from '@/components/sections/highlights-section';
 import AboutSection from '@/components/sections/about-section';
+import VenturesSection from '@/components/sections/ventures-section';
 import RichfamProjectSection from '@/components/sections/richfam-project-section';
-import ImpactSection from '@/components/sections/impact-section';
-import TimelineSection from '@/components/sections/timeline-section';
-import TestimonialsSection from '@/components/sections/testimonials-section';
+import CommunitySection from '@/components/sections/community-section';
+import PartnersSection from '@/components/sections/partners-section';
+import LegacySection from '@/components/sections/legacy-section';
+import ContactSection from '@/components/sections/contact-section';
+
 
 export default function Home() {
   return (
@@ -13,11 +17,14 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <HeroSection />
+        <HighlightsSection />
         <AboutSection />
+        <VenturesSection />
         <RichfamProjectSection />
-        <ImpactSection />
-        <TimelineSection />
-        <TestimonialsSection />
+        <CommunitySection />
+        <PartnersSection />
+        <LegacySection />
+        <ContactSection />
       </main>
       <Footer />
     </div>

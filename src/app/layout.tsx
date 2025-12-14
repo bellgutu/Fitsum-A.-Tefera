@@ -4,8 +4,8 @@ import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from '@/components/theme-provider';
 
 export const metadata: Metadata = {
-  title: 'Fitsum A. Tefera | Visionary Entrepreneur & Community Leader',
-  description: 'The official portfolio of Fitsum A. Tefera, showcasing strategic investments, the RICHFAM International School project, and a commitment to socioeconomic growth.',
+  title: 'Fitsum A. Tefera | Entrepreneur, Community Leader, Transcontinental Visionary',
+  description: 'The official portfolio of Fitsum A. Tefera, Board Member of the African American Community Census and Founder of RICHFAM International School. Discover his ventures, credentials, and community impact.',
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
       </head>
       <body className="font-body antialiased">
         <ThemeProvider

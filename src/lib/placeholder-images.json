@@ -2,39 +2,45 @@
   "placeholderImages": [
     {
       "id": "richfam-render-1",
-      "description": "Architectural 3D render of the RICHFAM International School campus.",
-      "imageUrl": "https://images.unsplash.com/photo-1546349851-64285be8e9fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzY1NDkzMTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "modern architecture"
+      "description": "Architectural 3D render of the RICHFAM International School campus with a modern, sustainable design.",
+      "imageUrl": "https://images.unsplash.com/photo-1758413351344-958d42b15b5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBzY2hvb2wlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzY1NzQyNzIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern school architecture"
     },
     {
       "id": "richfam-render-2",
-      "description": "Architectural 3D render of the RICHFAM International School interior with students.",
-      "imageUrl": "https://images.unsplash.com/photo-1577896851231-70ef18881754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwc3R1ZGVudHMlMjBpbiUyMGNsYXNzcm9vbXxlbnwwfHx8fDE3MjE0MDQwNTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "classroom students"
+      "description": "Bright, modern classroom interior at RICHFAM International School with light-skinned Ethiopian students learning.",
+      "imageUrl": "https://images.unsplash.com/photo-1640117792694-97b464c05f66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxldGhpb3BpYW4lMjBzdHVkZW50cyUyMGNsYXNzcm9vbXxlbnwwfHx8fDE3NjU3NDI3MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ethiopian students classroom"
     },
     {
       "id": "richfam-render-3",
-      "description": "Architectural 3D render of the RICHFAM International School library.",
-      "imageUrl": "https://images.unsplash.com/photo-1528820995593-07129c727b2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb2Rlcm4lMjBsaWJyYXJ5fGVufDB8fHx8MTc2NTU2MjQ4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "modern library"
+      "description": "A spacious and well-lit library at RICHFAM International School.",
+      "imageUrl": "https://images.unsplash.com/photo-1705354151834-3a99ef68b205?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBzY2hvb2wlMjBsaWJyYXJ5fGVufDB8fHx8MTc2NTc0MjcyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern school library"
     },
     {
       "id": "testimonial-1",
-      "description": "Avatar for testimonial provider 1.",
-      "imageUrl": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJzb24lMjBhdmF0YXJ8ZW58MHx8fHwxNzY1NDg2MDMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "person avatar"
+      "description": "Avatar for testimonial provider 1, a professional Ethiopian man.",
+      "imageUrl": "https://images.unsplash.com/photo-1571429682044-fbf7dfc72c33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxldGhpb3BpYW4lMjBidXNpbmVzc21hbnxlbnwwfHx8fDE3NjU3NDI3MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ethiopian businessman"
     },
     {
       "id": "testimonial-2",
-      "description": "Avatar for testimonial provider 2.",
-      "imageUrl": "https://images.unsplash.com/photo-1750535135451-7c20e24b60c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwYXZhdGFyfGVufDB8fHx8MTc2NTQ4NjAzMnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "person avatar"
+      "description": "Avatar for testimonial provider 2, a professional Ethiopian woman.",
+      "imageUrl": "https://images.unsplash.com/photo-1633980990916-74317cba1ea3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxldGhpb3BpYW4lMjBidXNpbmVzc3dvbWFufGVufDB8fHx8MTc2NTc0MjcyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ethiopian businesswoman"
     },
     {
       "id": "testimonial-3",
-      "description": "Avatar for testimonial provider 3.",
-      "imageUrl": "https://images.unsplash.com/photo-1594616838951-c155f8d978a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjBhdmF0YXJ8ZW58MHx8fHwxNzY1NDg2MDMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "person avatar"
+      "description": "Avatar for testimonial provider 3, a male project consultant.",
+      "imageUrl": "https://images.unsplash.com/photo-1632054224659-280be3239aff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWxlJTIwY29uc3VsdGFudHxlbnwwfHx8fDE3NjU3NDI3MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male consultant"
+    },
+    {
+      "id": "testimonial-4",
+      "description": "Avatar for testimonial provider 4, a member of the diaspora.",
+      "imageUrl": "https://images.unsplash.com/photo-1556157382-97eda2d62296?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcm9mZXNzaW9uYWwlMjBtYW58ZW58MHx8fHwxNzY1NjgxNDI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional man"
     }
   ]
 }

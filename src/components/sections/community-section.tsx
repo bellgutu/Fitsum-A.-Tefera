@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -36,15 +35,15 @@ export default function CommunitySection() {
     return (
         <section id="community" className="w-full py-20 md:py-28 lg:py-32">
             <div className="container">
-                <div className="grid lg:grid-cols-2 gap-12 items-center">
+                <div className="grid lg:grid-cols-2 gap-16 items-center">
                     <div>
                         <span className="text-sm font-bold tracking-wider uppercase text-accent">Community & Diplomacy</span>
-                        <h2 className="font-bold text-3xl md:text-4xl mt-2 text-primary">Leadership in Action</h2>
+                        <h2 className="font-bold text-3xl md:text-4xl mt-2 text-primary">A Voice for Progress</h2>
                         <p className="mt-4 text-muted-foreground text-lg">
                            Fitsum's influence extends far beyond the boardroom. As a respected leader, he has dedicated himself to uplifting the Ethiopian diaspora and fostering crucial dialogues.
                         </p>
-                        <div className="mt-6 space-y-4">
-                            <Card className="bg-background">
+                        <div className="mt-8 space-y-6">
+                            <Card className="bg-background shadow-sm border-l-4 border-accent">
                                 <CardHeader>
                                     <CardTitle>Board Member – African American Community Census</CardTitle>
                                     <CardDescription>
@@ -52,7 +51,7 @@ export default function CommunitySection() {
                                     </CardDescription>
                                 </CardHeader>
                             </Card>
-                             <Card className="bg-background">
+                             <Card className="bg-background shadow-sm border-l-4 border-primary/20">
                                 <CardHeader>
                                     <CardTitle>President of the Ethiopian Community (U.S.)</CardTitle>
                                     <CardDescription>
@@ -64,20 +63,21 @@ export default function CommunitySection() {
                     </div>
                      <Carousel
                         opts={{ align: "start", loop: true }}
-                        className="w-full max-w-md mx-auto"
+                        className="w-full max-w-lg mx-auto"
                     >
+                         <h3 className="font-bold text-2xl mb-6 text-primary text-center">What Partners & Peers Say</h3>
                         <CarouselContent>
                             {testimonials.map((testimonial) => {
                                 const image = PlaceHolderImages.find(p => p.id === testimonial.id);
                                 return (
                                     <CarouselItem key={testimonial.id}>
-                                        <Card className="h-full flex flex-col justify-between shadow-lg">
+                                        <Card className="h-full flex flex-col justify-between shadow-lg bg-secondary/30">
                                             <CardContent className="pt-6">
-                                                 <Quote className="w-6 h-6 text-accent mb-2" />
-                                                <p className="italic text-muted-foreground">"{testimonial.quote}"</p>
+                                                 <Quote className="w-6 h-6 text-accent mb-4" />
+                                                <p className="italic text-foreground/80">"{testimonial.quote}"</p>
                                             </CardContent>
-                                            <CardFooter className="bg-secondary/50 p-4 flex items-center gap-4">
-                                                <Avatar className="w-12 h-12">
+                                            <CardFooter className="bg-background/50 p-4 flex items-center gap-4 mt-4">
+                                                <Avatar className="w-12 h-12 border-2 border-accent/50">
                                                     {image && <AvatarImage src={image.imageUrl} alt={testimonial.name} data-ai-hint={image.imageHint} />}
                                                     <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
                                                 </Avatar>
@@ -91,8 +91,8 @@ export default function CommunitySection() {
                                 );
                             })}
                         </CarouselContent>
-                        <CarouselPrevious className="-left-4" />
-                        <CarouselNext className="-right-4" />
+                        <CarouselPrevious className="-left-4 bg-background/50 hover:bg-background" />
+                        <CarouselNext className="-right-4 bg-background/50 hover:bg-background" />
                     </Carousel>
                 </div>
             </div>
