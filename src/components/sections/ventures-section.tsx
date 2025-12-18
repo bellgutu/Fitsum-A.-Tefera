@@ -3,6 +3,11 @@ import { Building, Globe, Star, Users, Briefcase, Plane, ShieldCheck } from "luc
 
 const ventures = [
     {
+        icon: ShieldCheck,
+        title: "U.S. Department of Defense",
+        description: "Serving as a trusted logistics contractor, providing essential transport and supply chain solutions."
+    },
+    {
         icon: Briefcase,
         title: "Rehoboth Trucking, LLC",
         description: "Virginia-based logistics and transport solutions provider, crucial to regional supply chains."
@@ -24,11 +29,6 @@ const ventures = [
     },
     {
         icon: Plane,
-        title: "International Ventures",
-        description: "Maintains an active and diverse business presence in Ethiopia, bridging U.S. and African markets."
-    },
-    {
-        icon: ShieldCheck,
         title: "RICHFAM Int'l School",
         description: "Spearheading a ~$9.7M flagship educational and tourism mega-project in Ethiopia."
     }
