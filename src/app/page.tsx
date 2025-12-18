@@ -1,6 +1,5 @@
 import Header from '@/components/header';
 import Footer from '@/components/footer';
-import HeroSection from '@/components/sections/hero-section';
 import HighlightsSection from '@/components/sections/highlights-section';
 import AboutSection from '@/components/sections/about-section';
 import VenturesSection from '@/components/sections/ventures-section';
@@ -16,7 +15,6 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-background">
       <Header />
       <main className="flex-1">
-        <HeroSection />
         <AboutSection />
         <HighlightsSection />
         <VenturesSection />
